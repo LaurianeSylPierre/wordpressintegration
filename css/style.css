@@ -49,11 +49,14 @@ nav{
 }
 
 .titre_nav{
+    margin:5px;
+    padding: 1%;
     font-family: 'bebas_neueregular';
     font-size:300%;
 }
 
 ul{
+    margin: 1%;
     display: flex;
     justify-content: flex-end;
 }
@@ -61,6 +64,10 @@ ul{
 li{
     list-style:none;
     margin: 1%;
+}
+
+.icons{
+    margin: 3%;
 }
 
 a{
@@ -77,6 +84,24 @@ a:hover{
 
 /*-------------------- PORTFOLIO --------------------*/
 
+.portfolio{
+    text-align: center;
+    font-family: 'bebas_neueregular';
+    padding-bottom: 5%;
+}
+
+.titres_portfolio{
+    margin: 5%;
+}
+
+h4{
+    font-size:300%;
+}
+
+h5{
+    font-size:175%;
+}
+
 .images{
     padding-left: 0px;
     padding-right: 0px;
@@ -84,4 +109,22 @@ a:hover{
 
 .portraits .images{
     height: 292.5px;
+}
+
+/*-------------------- PORTFOLIO --------------------*/
+
+.citation{
+    background-image: url(../images/testimonial.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.quote{
+    font-family: 'bebas_neueregular';
+    font-size: 250%;
+}
+
+.author{
+    text-align: right;
 }
