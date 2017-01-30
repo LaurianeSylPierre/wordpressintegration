@@ -14,32 +14,42 @@
 <body>
 
     <header>
-        <div class="container">
-            <div class="fond">
-                <div>
+        <div class="fond">
+            <div class="container">
+                <div class="col-md-offset-1 titre">
                     <h1>.Folio</h1>
-                    <h2>One page PSD theme</h2>
+                    <h2>One page<br/>PSD theme</h2>
                     <h3>Simple, clear, minimal portfolio template</h3>
                 </div>
             </div>
-            <nav class="nav_header">
-                <ul>
-                    <li><a href="">.Folio</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Bio</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </nav>
         </div>
+        <nav class="nav_header">
+            <div class="container">
+                <a href="" class="col-md-2 titre_nav">.Folio</a>
+                <ul class="col-md-10 row">
+                    <li class="col-md-9 ">
+                        <ul class="menu_nav">
+                            <li><a href="">Work</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Bio</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-md-3">
+                        <ul class="icons">
+                            <li><a href=""><img src="images/instagram.png" alt=""></a></li>
+                            <li><a href=""><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href=""><img src="images/icon_bizarre.png" alt=""></a></li>
+                            <li><a href=""><img src="images/twitter.png" alt=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="portfolio">
+        <div class="portfolio">
+            <div class="container">
                 <h4>Portfolio</h4>
                 <h5>Glamour fashion personal street portrait</h5>
                 <div class="row">
@@ -56,7 +66,7 @@
                     <img src="images/img_2_portfolio.png" alt="" class="col-md-3 images">
                     <img src="images/img_2_portfolio.png" alt="" class="col-md-3 images">
                 </div>
-                <div class="row">
+                <div class="row portraits">
                     <img src="images/01.png" alt="" class="col-md-3 images">
                     <img src="images/02.png" alt="" class="col-md-3 images">
                     <img src="images/03.png" alt="" class="col-md-3 images">
@@ -73,12 +83,18 @@
                     <img src="images/10.png" alt="" class="col-md-6 images">
                 </div>
             </div>
-            <div class="citation">
+        </div>
+        <div class="citation">
 
-            </div>
-            <div class="news"></div>
-            <div class="sponsor"></div>
-            <div class="bio"></div>
+        </div>
+        <div class="news">
+
+        </div>
+        <div class="sponsor">
+
+        </div>
+        <div class="bio">
+
         </div>
     </main>
     <footer></footer>
