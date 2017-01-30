@@ -1,0 +1,25 @@
+/*-------------------- HEADER --------------------*/
+
+.fond{
+    background-image: url(../images/fond_header.png);
+    width: 100%;
+}
+
+.portfolio{
+
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style:none;
+}
+
+/*-------------------- PORTFOLIO --------------------*/
+
+.images{
+    padding-left: 0px;
+    padding-right: 0px;
+}
