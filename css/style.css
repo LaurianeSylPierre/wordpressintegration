@@ -111,20 +111,231 @@ h5{
     height: 292.5px;
 }
 
-/*-------------------- PORTFOLIO --------------------*/
+/*-------------------- TESTIMONY --------------------*/
 
 .citation{
     background-image: url(../images/testimonial.png);
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+    height: 300px;
 }
 
 .quote{
+    margin-top: 70px;
     font-family: 'bebas_neueregular';
     font-size: 250%;
 }
 
 .author{
+    margin-right: 250px;
+    margin-top: -40px;
     text-align: right;
+    font-family: 'bebas_neueregular';
+    font-size: 150%;
+}
+
+.quotation_mark1, .quotation_mark2{
+    font-size: 800%;
+    font-family: 'bebas_neueregular';
+    line-height: 60px;
+}
+
+.quotation_mark1{
+    position: absolute;
+    margin-left: -380px;
+    margin-top: 65px;
+}
+
+.quotation_mark2{
+    margin-top: 40px;
+    margin-left: 700px;
+}
+
+/*-------------------- NEWS --------------------*/
+
+.news{
+    background-color: #cdcdcd;
+    font-family: 'open sans';
+    padding-bottom: 5%;
+}
+
+h6{
+    margin: 5%;
+    text-align: center;
+    font-family: 'bebas_neueregular';
+    color: #252222;
+    font-size:300%;
+}
+
+.tags{
+    margin: 2%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag, .date{
+    margin: 1%;
+    padding: 0.5% 3%;
+    background-color: #59a386;
+    color: #fff;
+}
+
+.tag:hover{
+    background-color: #e2534b;
+}
+
+.date{
+    margin: 0 auto;
+    margin-left: 3%;
+    width: 25%;
+    font-size: 75%;
+}
+
+.tags_article{
+    margin-left: 5.5%;
+    text-align: right;
+    font-style: italic;
+    color: #e2534b;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+.titre_article{
+    color: #59a386;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.img_article{
+    width: 460px;
+    height: 200px;
+}
+
+.article{
+    margin-top:3%;
+    padding-right: 18%;
+    color: #666767;
+}
+
+.read_more{
+    color: #e2534b;
+    font-family: 'open sans';
+    font-size: 100%;
+    float: right;
+}
+
+.titre_tag{
+    margin: 2%;
+    font-family: 'bebas_neueregular';
+    font-size: 125%;
+    color: #59a386;
+}
+
+.from{
+    margin: 2.5%;
+}
+
+.extrait_article{
+    margin: 0 auto;
+}
+
+.img_ext{
+    margin-top: 2%;
+}
+
+.resume{
+    margin-top: 2%;
+}
+
+.date_res{
+    color: #e2534b;
+}
+
+/*-------------------- SPONSORS --------------------*/
+
+.sponsor{
+    background-color: #bebebe;
+    height: 100px;
+}
+
+.sponsors{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_sponsor{
+    margin: 2%;
+}
+
+/*-------------------- BIO --------------------*/
+
+.bio{
+    background-color: #e2534b;
+}
+
+.bio_gauche{
+    text-align: center;
+}
+
+.bio h5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'bebas_neueregular';
+}
+
+.avatar{
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.reseaux{
+    margin: 1%;
+    margin-bottom:15%;
+
+}
+
+.best{
+    margin-top: 5%;
+    font-family: 'bebas_neueregular';
+    font-size: 125%;
+}
+
+.explain{
+    width: 85%;
+}
+
+/*-------------------- BIO --------------------*/
+
+footer{
+    height: 530px;
+    background-image: url(../images/fond_footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: 'bebas_neueregular';
+}
+
+.tel{
+    font-size: 350%;
+}
+
+.mail{
+    margin: 0 auto;
+    width: 690px;
+    font-size: 400%;
+    border: 3px solid white;
+}
+
+.address{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 250%;
+}
+
+.copyright{
+    bottom: 10px;
+    font-size: 115%;
 }

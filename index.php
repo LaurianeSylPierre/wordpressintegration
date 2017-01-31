@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -97,68 +98,67 @@
         <div class="news">
             <div class="container">
                 <h6>News/</h6>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-6 date">
-                        23 Septembre 2013
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 date">
+                            23 Septembre 2013
+                        </div>
+                        <div class="col-md-6 tags_article">
+                            <p class="tags_attribues"><img src="images/icon_tag.png" alt="">Glamour, Fashion</p>
+                        </div>
                     </div>
-                    <div class="col-md-6 tags_article">
-                        <img src="" alt="">
-                        <p class="tags_attribues">Glamour, Fashion</p>
+                    <p class="titre_article">Duis dapibus aliquam mi, eget euismod sem scelerisque ut.</p>
+                    <img src="images/img_1_portfolio.png" alt="" class="img_article">
+                    <p class="article">Nunc nec massa et risus iaculis interdum et sed mi. Nam viverra
+                    ac neque eu aliquet. Maecenas posuere, neque non vestibulum
+                    sodales, arcu diam interdum nulla, in molestie magna magna vitae
+                    justo. Aenean semper volutpat sapien eu porta. Etiam vestibulum
+                    pharetra risus vel ultricies.</p>
+                    <a href="" class="read_more">Read more... <img src="images/icon_fleche.png" alt="flèche"></a>
+                </div>
+                <div class="col-md-offset-1 col-md-5">
+                    <p class="titre_tag">Tags</p>
+                    <div class="row tags">
+                        <div class="tag">Glamour</div>
+                        <div class="tag">Street</div>
+                        <div class="tag">Personal</div>
+                        <div class="tag">Portrait</div>
+                        <div class="tag">B&W</div>
+                        <div class="tag">Nude</div>
+                        <div class="tag">Wedding</div>
+                        <div class="tag">Fashion</div>
+                        <div class="tag">Kids</div>
                     </div>
-                </div>
-                <p class="titre_article">Duis dapibus aliquam mi, eget euismod sem scelerisque ut.</p>
-                <img src="images/img_1_portfolio.png" alt="" class="img_article">
-                <p class="article">Nunc nec massa et risus iaculis interdum et sed mi. Nam viverra
-                ac neque eu aliquet. Maecenas posuere, neque non vestibulum
-                sodales, arcu diam interdum nulla, in molestie magna magna vitae
-                justo. Aenean semper volutpat sapien eu porta. Etiam vestibulum
-                pharetra risus vel ultricies.</p>
-                <a href="" class="read_more">Read more... <img src="" alt="flèche"></a>
-            </div>
-            <div class="col-md-6">
-                <p class="titre_tag">Tags</p>
-                <div class="row">
-                    <div class="tags">Glamour</div>
-                    <div class="tags">Street</div>
-                    <div class="tags">Personal</div>
-                    <div class="tags">Portrait</div>
-                    <div class="tags">B&W</div>
-                    <div class="tags">Nude</div>
-                    <div class="tags">Wedding</div>
-                    <div class="tags">Fashion</div>
-                    <div class="tags">Kids</div>
-                </div>
-                <div class="from">from the <span class="blog">blog</span></div>
-                <div class="extrait_article">
-                    <img src="" alt="" class="img_ext">
-                    <p class="resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum,
-                        non posuere libero posuere.</p>
-                    <p class="date_res">26 Aug, 2013</p>
-                </div>
-                <div class="extrait_article">
-                    <img src="" alt="" class="img_ext">
-                    <p class="resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum,
-                        non posuere libero posuere.</p>
-                    <p class="date_res">26 Aug, 2013</p>
+                    <div class="from">from the <span class="blog">blog</span></div>
+                    <div class="extrait_article row">
+                        <img src="images/icon_blog.png" alt="" class="col-xs-3 img_ext">
+                        <p class="col-xs-9 resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum,
+                            non posuere libero posuere.<br/>
+                        <span class="date_res">26 Aug, 2013</span>
+                    </div>
+                    <div class="extrait_article row">
+                        <img src="images/icon_blog.png" alt="" class="col-xs-3 img_ext">
+                        <p class="col-xs-9 resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum,
+                            non posuere libero posuere.<br/>
+                        <span class="date_res">26 Aug, 2013</span></p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="sponsor">
-            <div class="container">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="container sponsors">
+                <img src="images/sponsor_img_01.png" alt="" class="img_sponsor">
+                <img src="images/sponsor_img_02.png" alt="" class="img_sponsor">
+                <img src="images/sponsor_img_03.png" alt="" class="img_sponsor">
+                <img src="images/sponsor_img_04.png" alt="" class="img_sponsor">
             </div>
         </div>
         <div class="bio">
             <div class="container">
                 <h6>Bio/</h6>
-                <div class="col-md-6">
-                    <h5></h5>
-                    <img src="" alt="" class="avatar">
+                <div class="col-md-6 bio_gauche">
+                    <h5>John Smits</h5>
+                    <img src="images/avatar.png" alt="" class="avatar">
                     <div class="img_reseaux">
                         <img src="images/instagram.png" alt="" class="reseaux">
                         <img src="images/facebook.png" alt="" class="reseaux">
@@ -190,6 +190,10 @@
     <footer>
         <div class="container">
             <h6>Contact/</h6>
+            <p class="tel">+39 123 45678 90</p>
+            <p class="mail">contact@smits.me</p>
+            <p class="address">124 avenue street, Los Angeles, California</p>
+            <p class="copyright">© Copyright 2013 The Uncreative Lab, All Rights Reserved.</p>
         </div>
     </footer>
 
